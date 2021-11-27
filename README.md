@@ -1,43 +1,33 @@
-# Hello World with React boilerplate
+# Traffic Light Exercise with React
 
-https://github.com/breatheco-de/exercise-traffic-light-react/blob/master/preview.gif
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+## Exercise
+The exercise consisted of **copying** a **traffic light** model that by **clicking** on it was to **illuminate** one light or the other, as shown in the original gif shown here:
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+[![Demo](https://raw.githubusercontent.com/breatheco-de/exercise-traffic-light-react/master/preview.gif "Demo")](http://https://github.com/breatheco-de/exercise-traffic-light-react/blob/master/preview.gif "Demo")
 
-##### Download the boilerplate using git
+## My work
+I limited myself to use a **`useState`** that would store the selected colour and that by means of a ternary conditional inside the `Home` component in its `return` would add a new class if this `useState` contained one colour or another. Very simple but effective.
 
+Here I show my particular result:
+
+[![Traffic Light Aslan's Result](https://raw.githubusercontent.com/AslanSN/traffic-light/master/src/img/Traffic-light-show.gif "Traffic Light Aslan's Result")](http://https://raw.githubusercontent.com/AslanSN/traffic-light/master/src/img/Traffic-light-show.gif "Traffic Light Aslan's Result")
+
+------------
+
+
+### To run my exercise:
+
+To **run** it you only must **_install_** node.js by typing this in your workspace's terminal:
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+npm install
 ```
 
-##### and install the npm package:
+And then **_run_** it typing:
 ```
-$ npm install
+npm run start
 ```
 
-## Start coding!
+------------
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
-
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+> _As always, thank you for reading,
+**AslanSN**_
