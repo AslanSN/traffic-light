@@ -1,0 +1,42 @@
+.container{
+    background: white;
+}
+
+
+
+.trafficLight{
+    margin: 20%;
+    background-color: black;
+    width: 120px;
+    height: 350px;
+    border-radius: 5%;
+    display: inline-block;
+}
+.red{
+    margin: 10px;
+    top: 1%;
+    background: rgb(255, 0, 64);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.yellow{
+    margin: 10px;
+    background: rgb(255, 187, 1);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.green{
+    margin: 10px;
+    background: rgb(0, 128, 68);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.glow{
+    box-shadow: 0px 0px 40px 20px #0ff;
+}

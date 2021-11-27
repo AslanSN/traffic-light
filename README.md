@@ -1,4 +1,6 @@
 # Hello World with React boilerplate
+
+https://github.com/breatheco-de/exercise-traffic-light-react/blob/master/preview.gif
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
   </a>
