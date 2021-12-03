@@ -4,10 +4,10 @@ import ReactDOM from "react-dom";
 import "bootstrap";
 
 
-//Comonents
+
 import Home from "./component/Home.jsx";
 
-//Styles
+
 import "../styles/index.scss";
 
 
