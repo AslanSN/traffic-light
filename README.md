@@ -1,7 +1,7 @@
 # Traffic Light Exercise with React
 
 ## Exercise
-The exercise consisted in **copying** a **traffic light** model that by **clicking** on it had to **illuminate** one light or the other, as shown in the original gif shown here:
+The exercise consisted in **copying** a **traffic light** model that by **clicking** on it had to **illuminate** one light or the other, as shown in the original gif right here:
 
 [![Demo](https://raw.githubusercontent.com/breatheco-de/exercise-traffic-light-react/master/preview.gif "Demo")](http://https://github.com/breatheco-de/exercise-traffic-light-react/blob/master/preview.gif "Demo")
 
